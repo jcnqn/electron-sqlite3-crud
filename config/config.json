@@ -1,0 +1,14 @@
+{
+  "development": {
+    "dialect": "sqlite",
+    "storage": "electronDB.sqlite"
+  },
+  "test": {
+    "dialect": "sqlite",
+    "storage": "electronDB.sqlite"
+  },
+  "production": {
+    "dialect": "sqlite",
+    "storage": "electronDB.sqlite"
+  }
+}
