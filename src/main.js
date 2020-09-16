@@ -24,9 +24,8 @@ module.exports = {
 
 //Se reciben los datos del producto a cargar-------------------------------------
 ipcMain.on("agregarProducto", (event, args) => {
-    
   (async () => {
-    const nuevoProducto = await productos.create({
+    nuevoProducto = await productos.create({
       nombre: args.nombre,
       precio: args.precio,
       descripcion: args.descripcion,
